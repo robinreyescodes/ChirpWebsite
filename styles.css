@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap");
+
+:root {
+  --logo-name: rgb(71, 126, 237);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+img:first-child {
+  margin-left: 0px;
+}
+img {
+  margin-left: -30px;
+}
+
+.page {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+main {
+  background-color: rgb(250, 248, 243);
+}
+
+/* navigation links style */
+
+header p:first-child {
+  color: var(--logo-name);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.nav-bar {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+li button:last {
+  margin-right: none;
+}
+li {
+  font-weight: 100;
+  letter-spacing: 0.4px;
+  font-size: 14px;
+  list-style: none;
+  margin-right: 20px;
+}
+
+button img {
+  height: 10px;
+  margin-right: 10px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  background-color: rgb(66, 179, 255);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+
+.hero-image {
+  height: 100px;
+}
+
+.hero-page {
+  display: grid;
+  grid-template-columns: 600px 1fr;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.desktop-img {
+  height: 650px;
+  justify-self: flex-end;
+}
+
+.hero-info h1 {
+  font-size: 48px;
+  letter-spacing: 1.4px;
+}
+
+.hero-info p {
+  font-weight: lighter;
+  word-spacing: 1.3px;
+}
+
+.learn-more {
+  display: flex;
+  align-items: center;
+}
+
+.margin-y-md {
+  margin-bottom: 30px;
+}
