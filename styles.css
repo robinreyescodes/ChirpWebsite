@@ -4,6 +4,12 @@
   --logo-name: rgb(71, 126, 237);
 }
 
+button,
+li,
+a {
+  cursor: pointer;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -18,12 +24,12 @@ img {
   margin-left: -30px;
 }
 
-.page {
+.center {
   max-width: 1080px;
   margin: 0 auto;
 }
 
-main {
+.hero-bg-color {
   background-color: rgb(250, 248, 243);
 }
 
@@ -90,16 +96,25 @@ button {
 .desktop-img {
   height: 650px;
   justify-self: flex-end;
+  margin-bottom: 40px;
 }
 
 .hero-info h1 {
   font-size: 48px;
   letter-spacing: 1.4px;
+  margin-bottom: 20px;
 }
 
 .hero-info p {
   font-weight: lighter;
   word-spacing: 1.3px;
+}
+
+.learn-more a {
+  font-size: 14px;
+  margin-left: 40px;
+  color: var(--logo-name);
+  text-decoration: none;
 }
 
 .learn-more {
@@ -109,4 +124,41 @@ button {
 
 .margin-y-md {
   margin-bottom: 30px;
+}
+
+span {
+  color: var(--logo-name);
+}
+
+/* features section */
+.features {
+  background-color: white;
+  margin-bottom: 40px;
+}
+
+.features h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  letter-spacing: 1.2px;
+}
+
+.grid-col-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 500px;
+}
+
+.card li {
+  margin: 20px;
+}
+
+.feature-head {
+  font-weight: 600;
 }
