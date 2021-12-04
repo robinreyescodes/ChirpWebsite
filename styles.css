@@ -42,10 +42,13 @@ header p:first-child {
 }
 
 .nav-bar {
-  padding-top: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.nav-bar-pad {
+  padding: 24px 0;
 }
 
 nav ul {
@@ -90,7 +93,6 @@ button {
   display: grid;
   grid-template-columns: 600px 1fr;
   align-items: center;
-  margin-top: 30px;
 }
 
 .desktop-img {
@@ -174,10 +176,45 @@ span {
 /* footer styles */
 footer {
   background-color: rgb(214, 236, 237);
-  padding-bottom: 30px;
+  padding: 10px 0;
 }
 
 footer img {
   height: 12px;
   margin-right: 10px;
+}
+
+.hello {
+  display: grid;
+  gap: 20px;
+  align-items: center;
+  width: 500px;
+  border: 1px solid orange;
+  border-radius: 5px;
+  padding: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.hello img {
+  margin-right: 10px;
+}
+
+.hello-head {
+  text-align: center;
+}
+
+.hello li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.hello li:last-child {
+  margin-bottom: 0;
+}
+
+.hello button {
+  width: 200px;
+  justify-self: center;
 }
